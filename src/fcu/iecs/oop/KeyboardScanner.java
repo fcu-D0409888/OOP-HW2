@@ -17,8 +17,6 @@ public class KeyboardScanner {
 		
 		float ans = num1*num2;
 		
-		//System.out.println("Hi " + name + ", the multiplication of " + num1 +" and " + num2 + " is " + ans + ".");
-		//System.out.println("Hi %s,the multiplication of %d and %d is %f.",name,num1,num2,ans);
 		System.out.printf("Hi %s,the multiplication of %d and %f is %8.2e.",name,num1,num2,ans);
 	}
 
